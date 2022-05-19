@@ -1,0 +1,26 @@
+.info{
+    text-align: center;
+    display: block;
+    color: #757575;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-weight: normal;
+    letter-spacing: 0.2rem;
+    padding: 0 !important;
+    font-family: "proxima nova semibold", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+}
+
+.blocks{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+
+.block1, .block2, .block3{
+    list-style: none;
+    border-style: inset;
+    width: 200px;
+}
