@@ -1,0 +1,13 @@
+.about{
+    position: absolute;
+}
+.photo {
+    width: 500px;
+    padding: 30px;
+}
+.aboutMain{
+    display: flex;
+}
+.photoInfo{
+    font-size: 20px;
+}

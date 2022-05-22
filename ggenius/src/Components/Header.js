@@ -3,7 +3,7 @@ import {Link, Route, Routes} from "react-router-dom";
 import MainComponent from "./MainComponent";
 import AboutPage from "../Pages/About";
 import PortfolioPage from "../Pages/Portfolio";
-import BlogPage from "../Pages/Blog";
+import TutorialPage from "../Pages/Tutorial";
 import ContactsPage from "../Pages/Contacts";
 function Header() {
     return(
@@ -17,7 +17,7 @@ function Header() {
                 <div className="buttons">
                     <Link to="/about" className="headerBtn">Обо мне</Link>
                     <Link to="/portfolio" className="headerBtn">Портфолио</Link>
-                    <Link to="/blog" className="headerBtn">Блог</Link>
+                    <Link to="/Tutorial" className="headerBtn">Туториалы</Link>
                     <Link to="/contacts" className="headerBtn">Контакты</Link>
                 </div>
 
@@ -30,7 +30,7 @@ function Header() {
                 <Route path="/" element={<MainComponent />}></Route>
                 <Route path="/about" element={<AboutPage />} ></Route>
                 <Route path="/portfolio" element={<PortfolioPage />} ></Route>
-                <Route path="/blog" element={<BlogPage />} ></Route>
+                <Route path="/Tutorial" element={<TutorialPage />} ></Route>
                 <Route path="/contacts" element={<ContactsPage />} ></Route>
             </Routes>
         </div>

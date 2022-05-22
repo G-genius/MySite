@@ -12,13 +12,13 @@
 
 #logo {
     width: 100px;
-    margin-left: 300px;
+    margin-left: 200px;
 }
 
 .headerBtn {
     position: relative;
     display: inline-block;
-    padding: 25px 30px;
+    padding: 25px 20px;
     margin: 40px 0;
     color: #cf321d;
     text-decoration: none;

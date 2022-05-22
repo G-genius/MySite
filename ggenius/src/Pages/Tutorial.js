@@ -1,9 +1,9 @@
 import React, { createElement, useEffect, useState } from "react";
-function Blog() {
+function Tutorial() {
     return(
         <div>
-            <h1>Blog</h1>
+            <h1>Tutorial</h1>
         </div>
     )
 }
-export default Blog
+export default Tutorial
