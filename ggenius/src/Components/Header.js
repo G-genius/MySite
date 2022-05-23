@@ -5,6 +5,7 @@ import AboutPage from "../Pages/About";
 import PortfolioPage from "../Pages/Portfolio";
 import TutorialPage from "../Pages/Tutorial";
 import ContactsPage from "../Pages/Contacts";
+import WhatToWearPage from "../Pages/projects/WhatToWear";
 function Header() {
     return(
         <div>
@@ -32,6 +33,7 @@ function Header() {
                 <Route path="/portfolio" element={<PortfolioPage />} ></Route>
                 <Route path="/Tutorial" element={<TutorialPage />} ></Route>
                 <Route path="/contacts" element={<ContactsPage />} ></Route>
+                <Route path="/whattowear" element={<WhatToWearPage />} ></Route>
             </Routes>
         </div>
     )
