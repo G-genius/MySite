@@ -6,6 +6,7 @@ import PortfolioPage from "../Pages/Portfolio";
 import TutorialPage from "../Pages/Tutorial";
 import ContactsPage from "../Pages/Contacts";
 import WhatToWearPage from "../Pages/projects/WhatToWear";
+import WhatToWearTermsPage from "../Pages/projects/WhatToWearTerms";
 function Header() {
     return(
         <div>
@@ -19,7 +20,7 @@ function Header() {
                     <Link to="/about" className="headerBtn">Обо мне</Link>
                     <Link to="/portfolio" className="headerBtn">Портфолио</Link>
                     <Link to="/Tutorial" className="headerBtn">Туториалы</Link>
-                    <Link to="/contacts" className="headerBtn">Контакты</Link>
+                    <Link to="contacts" className="headerBtn">Контакты</Link>
                 </div>
 
                 <a href="https://vk.com/public207258080"> <img src="/img/VK.svg" alt="VK" id="vk"/></a>
@@ -28,12 +29,13 @@ function Header() {
             </header>
 
             <Routes>
-                <Route path="/" element={<MainComponent />}></Route>
-                <Route path="/about" element={<AboutPage />} ></Route>
-                <Route path="/portfolio" element={<PortfolioPage />} ></Route>
-                <Route path="/Tutorial" element={<TutorialPage />} ></Route>
-                <Route path="/contacts" element={<ContactsPage />} ></Route>
-                <Route path="/whattowear" element={<WhatToWearPage />} ></Route>
+                <Route path="/" element={<MainComponent/>}/>
+                <Route path="/about" element={<AboutPage/>} />
+                <Route path="/portfolio" element={<PortfolioPage/>} />
+                <Route path="/Tutorial" element={<TutorialPage/>} />
+                <Route path="/contacts" element={<ContactsPage/>} />
+                <Route path="/whattowear" element={<WhatToWearPage/>} />
+                <Route path="/whattowear/terms" element={<WhatToWearTermsPage/>} />
             </Routes>
         </div>
     )

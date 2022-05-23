@@ -9,13 +9,13 @@ function Portfolio() {
             <div>
                 <ul className="blocks">
                     <li className="block1">
-                        <Link to="/whattowear">
+                        <a href="/whattowear">
                             <img className="whattowear" src="/img/ru.png" alt="hz" width="200px"/>
-                        </Link>
+                        </a>
                         <div className="description">
                             <h4>Не знаете, как правильно одеться чтобы было комфортно? Это приложение - решение!</h4>
                             <p>WhatToWear</p>
-                            <button>Подробнее</button>
+                            <a href="/whattowear">Подробнее</a>
                         </div>
                     </li>
                 </ul>

@@ -1,0 +1,23 @@
+.wtw1, .wtw2, .wtw3, .wtw4 {
+    width:900px;
+    padding: 20px;
+}
+.infoWtw {
+    margin: auto;
+    width: 900px;
+    text-align: left;
+}
+.nashstorelogo, .googleplaylogo{
+    margin-top: 30px;
+    margin-left: 100px;
+    padding: 10px;
+    width: 300px;
+}
+.functionsWtw{
+    margin: auto;
+    width: 900px;
+    text-align: left;
+    display: flex;
+}
+
+
