@@ -1,12 +1,4 @@
-import React, { createElement, useEffect, useState } from "react";
-import {Link, Route, Routes} from "react-router-dom";
-import MainComponent from "./MainComponent";
-import AboutPage from "../Pages/About";
-import PortfolioPage from "../Pages/Portfolio";
-import TutorialPage from "../Pages/Tutorial";
-import ContactsPage from "../Pages/Contacts";
-import WhatToWearPage from "../Pages/projects/WhatToWear";
-import WhatToWearTermsPage from "../Pages/projects/WhatToWearTerms";
+import {Link} from "react-router-dom";
 function Header() {
     return(
         <div>
@@ -28,15 +20,6 @@ function Header() {
                 <a href="https://www.youtube.com/channel/UCTVHjlTMVEyUYIiJpfJ5N0A/featured"> <img src="/img/YouTube.svg" alt="YouTube" id="youtube"/></a>
             </header>
 
-            <Routes>
-                <Route path="/" element={<MainComponent/>}/>
-                <Route path="/about" element={<AboutPage/>} />
-                <Route path="/portfolio" element={<PortfolioPage/>} />
-                <Route path="/Tutorial" element={<TutorialPage/>} />
-                <Route path="/contacts" element={<ContactsPage/>} />
-                <Route path="/whattowear" element={<WhatToWearPage/>} />
-                <Route path="/whattowear/terms" element={<WhatToWearTermsPage/>} />
-            </Routes>
         </div>
     )
 }

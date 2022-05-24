@@ -1,5 +1,4 @@
-import React, { createElement, useEffect, useState } from "react";
-import {Link, Route, Routes} from "react-router-dom";
+import {Link} from "react-router-dom";
 function Portfolio() {
     return(
         <div>
@@ -9,13 +8,13 @@ function Portfolio() {
             <div>
                 <ul className="blocks">
                     <li className="block1">
-                        <a href="/whattowear">
+                        <Link to="/whattowear">
                             <img className="whattowear" src="/img/ru.png" alt="hz" width="200px"/>
-                        </a>
+                        </Link>
                         <div className="description">
                             <h4>Не знаете, как правильно одеться чтобы было комфортно? Это приложение - решение!</h4>
                             <p>WhatToWear</p>
-                            <a href="/whattowear">Подробнее</a>
+                            <Link to="/whattowear">Подробнее</Link>
                         </div>
                     </li>
                 </ul>

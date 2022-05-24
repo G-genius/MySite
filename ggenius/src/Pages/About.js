@@ -1,4 +1,3 @@
-import React, { createElement, useEffect, useState } from "react";
 function About() {
     return(
         <div className="about">

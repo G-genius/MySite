@@ -1,4 +1,3 @@
-import React, {createElement, useEffect, useState} from "react";
 import {Link} from "react-router-dom";
 
 function WhatToWear() {
@@ -33,7 +32,7 @@ function WhatToWear() {
                 </div>
             </div>
             <div className="termsWtw">
-                <Link to="/whattowear/terms">Политика конфиденциальности</Link>
+                <Link to="/whattowear-terms">Политика конфиденциальности</Link>
             </div>
         </div>
     )

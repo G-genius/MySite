@@ -1,5 +1,3 @@
-import React, {createElement, useEffect, useState} from "react";
-
 function Main() {
     return (
         <div>
