@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom";
+
 function Main() {
     return (
         <div>
@@ -6,34 +8,19 @@ function Main() {
                 <div>
                     <ul className="blocks">
                         <li className="block1">
-                            <a href="">
-                                <img src="https://picsum.photos/200/300" alt="hz"/>
-                            </a>
+                            <Link to="/whattowear">
+                                <img className="whattowear" src="/img/ru.png" alt="hz" width="200px"/>
+                            </Link>
                             <div className="description">
-                                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, praesentium.</h4>
-                                <p>Mobile</p>
-                            </div>
-                        </li>
-
-                        <li className="block2">
-                            <a href="">
-                                <img src="https://picsum.photos/200/300" alt="hz"/>
-                            </a>
-                            <div className="description">
-                                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, vero.</h4>
-                                <p>Mobile</p>
-                            </div>
-                        </li>
-                        <li className="block3">
-                            <a href="">
-                                <img src="https://picsum.photos/200/300" alt="hz"/>
-                            </a>
-                            <div className="description">
-                                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, aut.</h4>
-                                <p>Mobile</p>
+                                <h4>Не знаете, как правильно одеться чтобы было комфортно? Это приложение - решение!</h4>
+                                <p>WhatToWear</p>
+                                <Link to="/whattowear">Подробнее</Link>
                             </div>
                         </li>
                     </ul>
+                    <br/><br/><br/><br/><br/><br/>
+
+
                 </div>
             </div>
         </div>
