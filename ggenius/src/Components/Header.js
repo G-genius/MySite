@@ -19,7 +19,6 @@ function Header() {
                 <a href="https://t.me/iSplit_25"> <img src="/img/Telegram.svg" alt="Telegram" id="telegram"/></a>
                 <a href="https://www.youtube.com/channel/UCTVHjlTMVEyUYIiJpfJ5N0A/featured"> <img src="/img/YouTube.svg" alt="YouTube" id="youtube"/></a>
             </header>
-
         </div>
     )
 }

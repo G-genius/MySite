@@ -28,7 +28,7 @@ function WhatToWear() {
                 </ul>
                 <div>
                     <a href="" ><img className="googleplaylogo" src="/img/googleplaylogo.png"/></a>
-                    <a href="" ><img className="nashstorelogo" src="/img/nashstorelogo.svg"/></a>
+                    <a href="https://store.nashstore.ru/store/6288e912fb3ed37134187a0f" ><img className="nashstorelogo" src="/img/nashstorelogo.svg"/></a>
                 </div>
             </div>
             <div className="termsWtw">

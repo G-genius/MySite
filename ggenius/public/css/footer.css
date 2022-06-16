@@ -1,16 +1,14 @@
 .footer{
     font-family: "proxima nova semibold", "Helvetica Neue", Helvetica, Arial, Sans-serif, serif;
-    display: flex;
-    background-color: #f5f5f5;
-    width: 100%;
-    margin-top: auto;
+
+    background-color: #1c1920;
 }
 .nameFooter{
-    margin-left: 100px;
-
+    margin: 0 auto;
 }
 .footerMenu{
-    margin-left: 850px;
-    margin-top: 15px;
+    margin: 0 auto;
+
 }
+
 
