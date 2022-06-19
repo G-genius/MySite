@@ -1,13 +1,9 @@
 .info{
     text-align: center;
-    display: block;
+    margin: 0 auto;
     color: #757575;
     text-transform: uppercase;
-    font-size: 14px;
-    font-size: 1.4rem;
-    font-weight: normal;
     letter-spacing: 0.2rem;
-    padding: 0 !important;
     font-family: "proxima nova semibold", "Helvetica Neue", Helvetica, Arial, Sans-serif, serif;
 }
 
@@ -15,12 +11,21 @@
     display: flex;
     text-align: center;
     justify-content: center;
-    column-gap: 30px;
 }
 
 
-.block1, .block2, .block3{
+.block{
+    border-style: solid;
     list-style: none;
-    border-style: inset;
-    width: 200px;
+    margin: 0 auto;
+}
+
+
+
+@media(max-width: 990px){
+    .block1 img{
+        margin: 0 auto;
+        width: 400px;
+        font-size: 20px;
+    }
 }

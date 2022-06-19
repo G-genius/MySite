@@ -7,7 +7,7 @@ function Main() {
             <div className="main">
                 <div>
                     <ul className="blocks">
-                        <li className="block1">
+                        <li className="block">
                             <Link to="/whattowear">
                                 <img className="whattowear" src="/img/ru.png" alt="hz" width="200px"/>
                             </Link>
@@ -17,6 +17,7 @@ function Main() {
                                 <Link to="/whattowear">Подробнее</Link>
                             </div>
                         </li>
+
                     </ul>
                     <br/><br/><br/><br/><br/><br/>
 

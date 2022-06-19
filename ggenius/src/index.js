@@ -16,7 +16,22 @@ root.render(
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+window.addEventListener('DOMContentLoaded', () => {
+    const menu = document.querySelector('.buttons'),
+        menuItem = document.querySelectorAll('.headerBtn'),
+        hamburger = document.querySelector('.hamburger');
+
+    hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('hamburger_active');
+        menu.classList.toggle('buttons_active');
+    });
+
+    menuItem.forEach(item => {
+        item.addEventListener('click', () => {
+            hamburger.classList.toggle('hamburger_active');
+            menu.classList.toggle('buttons_active');
+        })
+    })
+})
+
 reportWebVitals();

@@ -5,10 +5,14 @@
 }
 .nameFooter{
     margin: 0 auto;
+
 }
 .footerMenu{
     margin: 0 auto;
 
 }
+@media(max-width: 991px){
+    .footer {
 
-
+    }
+}
