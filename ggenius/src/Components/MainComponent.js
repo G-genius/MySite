@@ -9,19 +9,38 @@ function Main() {
                     <ul className="blocks">
                         <li className="block">
                             <Link to="/whattowear">
-                                <img className="whattowear" src="/img/ru.png" alt="hz" width="200px"/>
+                                <img className="image" src="/img/ru.png" alt="hz" width="200px"/>
                             </Link>
                             <div className="description">
-                                <h4>Не знаете, как правильно одеться чтобы было комфортно? Это приложение - решение!</h4>
                                 <p>WhatToWear</p>
+                                <h4>Погодное мобильное приложение</h4>
+                                <Link to="/whattowear">Подробнее</Link>
+                            </div>
+                        </li>
+                        <li className="block">
+                            <Link to="/whattowear">
+                                <img className="image" src="/img/ru.png" alt="hz" width="200px"/>
+                            </Link>
+                            <div className="description">
+                                <p>WhatToWear</p>
+                                <h4>Погодное мобильное приложение</h4>
+                                <Link to="/whattowear">Подробнее</Link>
+                            </div>
+                        </li>
+                        <li className="block">
+                            <Link to="/whattowear">
+                                <img className="image" src="/img/ru.png" alt="hz" width="200px"/>
+                            </Link>
+                            <div className="description">
+                                <p>WhatToWear</p>
+                                <h4>Погодное мобильное приложение</h4>
                                 <Link to="/whattowear">Подробнее</Link>
                             </div>
                         </li>
 
+
+
                     </ul>
-                    <br/><br/><br/><br/><br/><br/>
-
-
                 </div>
             </div>
         </div>
