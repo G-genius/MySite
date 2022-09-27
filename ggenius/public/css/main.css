@@ -20,7 +20,7 @@
 
 .block{
     margin: 0 auto;
-    width: 250px;
+    width: 400px;
     box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),
     0 5px 15px 0 rgba(0,0,0,0.08);
     background-color: floralwhite;
@@ -45,6 +45,10 @@
     border-color: #cf321d;
     list-style: none;
     margin: 0 auto;
+}
+
+.blockImage{
+    display: block;
 }
 
 @media(max-width: 990px){

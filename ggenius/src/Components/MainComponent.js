@@ -9,37 +9,27 @@ function Main() {
                     <ul className="blocks">
                         <li className="block">
                             <Link to="/whattowear">
-                                <img className="image" src="/img/ru.png" alt="hz" width="200px"/>
+                                <div className="blockImage">
+                                    <img className="image" src="/img/whatToWear.png" alt="hz" width="400px"/>
+                                </div>
+
                             </Link>
                             <div className="description">
-                                <p>WhatToWear</p>
-                                <h4>Погодное мобильное приложение</h4>
+                                <p>Первое мобильное приложение "WhatToWear"</p>
+                                <h4>Kotlin + API</h4>
                                 <Link to="/whattowear">Подробнее</Link>
                             </div>
                         </li>
                         <li className="block">
-                            <Link to="/whattowear">
-                                <img className="image" src="/img/ru.png" alt="hz" width="200px"/>
-                            </Link>
+                            <a href="https://nitochkaigolochka40.ru">
+                                <img className="image" src="/img/nitochkaigolochka.png" alt="hz" width="400px"/>
+                            </a>
                             <div className="description">
-                                <p>WhatToWear</p>
-                                <h4>Погодное мобильное приложение</h4>
-                                <Link to="/whattowear">Подробнее</Link>
+                                <p>Интернет-магазин "Ниточка & Иголочка 40"</p>
+                                <h4>ASP.NET, React</h4>
+                                <a href="https://nitochkaigolochka40.ru">Подробнее</a>
                             </div>
                         </li>
-                        <li className="block">
-                            <Link to="/whattowear">
-                                <img className="image" src="/img/ru.png" alt="hz" width="200px"/>
-                            </Link>
-                            <div className="description">
-                                <p>WhatToWear</p>
-                                <h4>Погодное мобильное приложение</h4>
-                                <Link to="/whattowear">Подробнее</Link>
-                            </div>
-                        </li>
-
-
-
                     </ul>
                 </div>
             </div>
