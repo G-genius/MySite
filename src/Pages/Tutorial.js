@@ -1,7 +1,7 @@
 function Tutorial() {
     return(
         <div>
-            <h1>Tutorial</h1>
+            <h2 className="info">Tutorial</h2>
         </div>
     )
 }

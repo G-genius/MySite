@@ -7,19 +7,20 @@ function Main() {
             <div className="main">
                 <div>
                     <ul className="blocks">
-                        <li className="block">
-                            <Link to="/whattowear">
+                        <Link to="/whattowear">
+                            <li className="block">
+
                                 <div className="blockImage">
                                     <img className="image" src="/img/whatToWear.png" alt="hz" width="400px"/>
                                 </div>
 
-                            </Link>
-                            <div className="description">
-                                <p>Первое мобильное приложение "WhatToWear"</p>
-                                <h4>Kotlin + API</h4>
-                                <Link to="/whattowear">Подробнее</Link>
-                            </div>
-                        </li>
+
+                                <div className="description">
+                                    <p>Первое мобильное приложение "WhatToWear"</p>
+                                    <h4>Kotlin + API</h4>
+                                </div>
+                            </li>
+                        </Link>
                         <li className="block">
                             <a href="https://nitochkaigolochka40.ru">
                                 <img className="image" src="/img/nitochkaigolochka.png" alt="hz" width="400px"/>
@@ -34,6 +35,7 @@ function Main() {
                 </div>
             </div>
         </div>
-)
+    )
 }
+
 export default Main

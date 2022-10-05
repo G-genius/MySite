@@ -27,8 +27,9 @@ function WhatToWear() {
                     <li>Многообразие тем приложения</li>
                 </ul>
                 <div>
-                    <a href="" ><img className="googleplaylogo" src="/img/googleplaylogo.png"/></a>
-                    <a href="https://store.nashstore.ru/store/6288e912fb3ed37134187a0f" ><img className="nashstorelogo" src="/img/nashstorelogo.svg"/></a>
+                    {/*<a href="" ><img className="googleplaylogo" src="/img/googleplaylogo.png"/></a>*/}
+                    <a href="https://apps.rustore.ru/app/com.ggenius.wtw"><img className="logoBtn" src="/img/rustorelogo.svg"/></a>
+                    <a href="https://store.nashstore.ru/store/6288e912fb3ed37134187a0f" ><img className="logoBtn" src="/img/nashstorelogo.svg"/></a>
                 </div>
             </div>
             <div className="termsWtw">
